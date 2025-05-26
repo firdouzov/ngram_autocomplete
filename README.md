@@ -54,15 +54,24 @@ pip install gradio
 
 ---
 
-## 📁 Files
+## 📁 Project Structure
 
-| File                      | Description                                                                         |
-|---------------------------|-------------------------------------------------------------------------------------|
-| `main.py`                 | Main app: loads models, computes probabilities, Gradio UI                           |
-| `ngram_preprocessor.ipynb`| Jupyter notebook to generate n-gram models from text corpus                         |
-| `bigram.pkl.gz`           | Gzipped pickle of bigram frequency dictionary (couldn't be uploaded due to size)    |
-| `trigram.pkl.gz`          | Gzipped pickle of trigram frequency dictionary (couldn't be uploaded due to size)   |
+ngram-autocompleter/
+├── main.py                 # Main application file
+├── requirements.txt        # Python dependencies
+├── ngram_preprocessor.ipynb # Data preprocessing notebook
+├── trigram.pkl.gz         # Trained trigram model (not uploaded)
+├── bigram.pkl.gz          # Trained bigram model (not uploaded)
+└── README.md              # This file
 
+---
+## 🌐 Deployment
+Hugging Face Spaces
+- This project is designed to be deployed on Hugging Face Spaces:
+- 1. Create a new Space on Hugging Face
+- 2. Upload all project files including model files
+- 3. The app will automatically deploy with a permanent URL
+   
 ---
 
 ## 🧠 How It Works
@@ -72,6 +81,22 @@ pip install gradio
 - Uses Laplace smoothing for better prediction accuracy  
 - Gradio provides the interactive web UI  
 
+---
+
+## 📊 Model Information
+
+- The n-gram models were trained on the LocalDoc/news_azerbaijan dataset from Hugging Face. The preprocessing pipeline includes:
+- * Text tokenization using NLTK
+- * Lowercasing
+- * Vocabulary filtering (threshold: 300 occurrences)
+- * Unknown token handling (<UNK>)
+- * Start/end tokens (<s>, </s>)
+
+---
+## Model Statistics
+- * Vocabulary size: Filtered based on frequency threshold
+- * N-gram orders: Unigram, Bigram, and Trigram
+- * Smoothing: Laplace smoothing with k=1
 ---
 
 ## ▶️ Run the App
@@ -84,20 +109,14 @@ This launches the Gradio web interface locally.
 
 ---
 
-## 🪪 License
-
-MIT License. See `LICENSE` file for details.
-
----
-
 ## 👤 Author
 
-**Your Name**  
+**Aydin Firdouzov**  
 GitHub: [@firdouzov](https://github.com/firdouzov)
 
 ---
 
 ## 🙌 Acknowledgements
-
+- Dataset: [LocalDoc/news_azerbaijan](https://huggingface.co/datasets/LocalDoc/news_azerbaijan)
 - Built with [Gradio](https://gradio.app)  
 - Inspired by traditional NLP N-Gram models  
