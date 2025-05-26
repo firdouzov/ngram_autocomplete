@@ -21,7 +21,7 @@ A real-time word prediction tool trained on Azerbaijani news text using N-Gram m
 > Input: `Azərbaycan respublikası`  
 > Output: `Azərbaycan respublikası ərəb`
 
-![Alt text](/autocompleteşpng?raw=true "Screenshot Title")
+![Alt text](/autocomplete.png?raw=true "Screenshot Title")
 
 Start typing any phrase related to Azerbaijani news, and the model will suggest the most probable next word.
 
@@ -34,7 +34,7 @@ Start typing any phrase related to Azerbaijani news, and the model will suggest 
 ## 🛠️ Installation
 
 ```bash
-git clone https://github.com/yourusername/az-ngrams-autocompleter.git
+git clone https://github.com/firdouzov/ngrams_autocomplete.git
 cd az-ngrams-autocompleter
 ```
 
