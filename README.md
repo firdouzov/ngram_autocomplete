@@ -19,7 +19,9 @@ A real-time word prediction tool trained on Azerbaijani news text using N-Gram m
 ## 🚀 Demo
 
 > Input: `Azərbaycan respublikası`  
-> Output: `Azərbaycan respublikası prezidenti`
+> Output: `Azərbaycan respublikası ərəb`
+
+![Alt text](/autocompleteşpng?raw=true "Screenshot Title")
 
 Start typing any phrase related to Azerbaijani news, and the model will suggest the most probable next word.
 
@@ -54,12 +56,12 @@ pip install gradio
 
 ## 📁 Files
 
-| File                      | Description                                                        |
-|---------------------------|--------------------------------------------------------------------|
-| `main.py`                 | Main app: loads models, computes probabilities, Gradio UI          |
-| `ngram_preprocessor.ipynb`| Jupyter notebook to generate n-gram models from text corpus        |
-| `bigram.pkl.gz`           | Gzipped pickle of bigram frequency dictionary                      |
-| `trigram.pkl.gz`          | Gzipped pickle of trigram frequency dictionary                     |
+| File                      | Description                                                                         |
+|---------------------------|-------------------------------------------------------------------------------------|
+| `main.py`                 | Main app: loads models, computes probabilities, Gradio UI                           |
+| `ngram_preprocessor.ipynb`| Jupyter notebook to generate n-gram models from text corpus                         |
+| `bigram.pkl.gz`           | Gzipped pickle of bigram frequency dictionary (couldn't be uploaded due to size)    |
+| `trigram.pkl.gz`          | Gzipped pickle of trigram frequency dictionary (couldn't be uploaded due to size)   |
 
 ---
 
@@ -91,7 +93,7 @@ MIT License. See `LICENSE` file for details.
 ## 👤 Author
 
 **Your Name**  
-GitHub: [@yourusername](https://github.com/yourusername)
+GitHub: [@firdouzov](https://github.com/firdouzov)
 
 ---
 
