@@ -34,8 +34,8 @@ Start typing any phrase related to Azerbaijani news, and the model will suggest 
 ## 🛠️ Installation
 
 ```bash
-git clone https://github.com/firdouzov/ngrams_autocomplete.git
-cd az-ngrams-autocompleter
+git clone https://github.com/firdouzov/ngram_autocomplete.git
+cd az-ngram-autocompleter
 ```
 
 ### Install dependencies
