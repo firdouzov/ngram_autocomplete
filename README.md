@@ -57,11 +57,11 @@ pip install gradio
 ## 📁 Project Structure
 
 ngram-autocompleter/
-├── main.py                    # Main application with Gradio interface\n
-├── ngram_preprocessor.ipynb   # Data preprocessing and model training\n
-├── requirements.txt           # Python dependencies\n
-├── trigram.pkl.gz            # Compressed trigram model (generated) (not uploaded due to size)\n
-├── bigram.pkl.gz             # Compressed bigram model (generated) (not uploaded due to size)\n
+├── main.py                    # Main application with Gradio interface\
+├── ngram_preprocessor.ipynb   # Data preprocessing and model training\
+├── requirements.txt           # Python dependencies\
+├── trigram.pkl.gz            # Compressed trigram model (generated) (not uploaded due to size)\
+├── bigram.pkl.gz             # Compressed bigram model (generated) (not uploaded due to size)\
 └── README.md                 # This file
 
 ---
