@@ -2,7 +2,7 @@
 
 A real-time word prediction tool trained on Azerbaijani news text using N-Gram models (bigram and trigram). It suggests the next word based on the current sentence context using Laplace-smoothed probabilities.
 
-Project URL: [Huggingface URL]([(https://huggingface.co/spaces/firdouzov/autocompleter])
+Project URL: [Huggingface URL]((https://huggingface.co/spaces/firdouzov/autocompleter)
 
 ---
 
