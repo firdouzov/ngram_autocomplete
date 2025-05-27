@@ -56,7 +56,7 @@ pip install gradio
 
 ## 📁 Project Structure
 
-ngram-autocompleter/
+ngram-autocompleter/ \
 ├── main.py                    # Main application with Gradio interface\
 ├── ngram_preprocessor.ipynb   # Data preprocessing and model training\
 ├── requirements.txt           # Python dependencies\
