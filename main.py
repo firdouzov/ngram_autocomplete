@@ -2,7 +2,6 @@ import pickle
 import gradio as gr
 import gzip
 
-# Load the n-gram models
 with gzip.open('trigram.pkl.gz', 'rb') as f:
     trigram = pickle.load(f)
 
