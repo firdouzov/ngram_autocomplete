@@ -9,7 +9,7 @@ Project URL: [Huggingface URL](https://huggingface.co/spaces/firdouzov/autocompl
 ## ✨ Features
 
 - 🔤 Bigram and trigram next-word prediction  
-- 🧠 Laplace smoothing for unseen combinations  
+- 🧠 Laplace smoothing for unseen combinations   
 - 🌐 Gradio interface for easy interaction  
 - 📚 Trained on Azerbaijani news corpora  
 - 🧪 Jupyter notebook for preprocessing  
